@@ -13,6 +13,7 @@
 		E5340F1E14853A4E0041398D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5340F1C14853A4E0041398D /* InfoPlist.strings */; };
 		E5340F2014853A4E0041398D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5340F1F14853A4E0041398D /* main.m */; };
 		E5340F2414853A4E0041398D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5340F2314853A4E0041398D /* AppDelegate.m */; };
+		E5340F3014853C690041398D /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5340F2F14853C690041398D /* OpenGLView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E5340F2114853A4E0041398D /* HelloOpenGL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloOpenGL-Prefix.pch"; sourceTree = "<group>"; };
 		E5340F2214853A4E0041398D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E5340F2314853A4E0041398D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E5340F2E14853C690041398D /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
+		E5340F2F14853C690041398D /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 				E5340F2214853A4E0041398D /* AppDelegate.h */,
 				E5340F2314853A4E0041398D /* AppDelegate.m */,
 				E5340F1A14853A4E0041398D /* Supporting Files */,
+				E5340F2E14853C690041398D /* OpenGLView.h */,
+				E5340F2F14853C690041398D /* OpenGLView.m */,
 			);
 			path = HelloOpenGL;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			files = (
 				E5340F2014853A4E0041398D /* main.m in Sources */,
 				E5340F2414853A4E0041398D /* AppDelegate.m in Sources */,
+				E5340F3014853C690041398D /* OpenGLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +260,7 @@
 				E5340F2914853A4E0041398D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

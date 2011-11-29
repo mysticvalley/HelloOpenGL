@@ -14,6 +14,8 @@
 		E5340F2014853A4E0041398D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5340F1F14853A4E0041398D /* main.m */; };
 		E5340F2414853A4E0041398D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5340F2314853A4E0041398D /* AppDelegate.m */; };
 		E5340F3014853C690041398D /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5340F2F14853C690041398D /* OpenGLView.m */; };
+		E5340F3B14853DBF0041398D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5340F3914853D960041398D /* OpenGLES.framework */; };
+		E5340F3C14853DC40041398D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5340F3614853D830041398D /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		E5340F2314853A4E0041398D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E5340F2E14853C690041398D /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
 		E5340F2F14853C690041398D /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView.m; sourceTree = "<group>"; };
+		E5340F3614853D830041398D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E5340F3914853D960041398D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5340F3C14853DC40041398D /* QuartzCore.framework in Frameworks */,
+				E5340F3B14853DBF0041398D /* OpenGLES.framework in Frameworks */,
 				E5340F1414853A4E0041398D /* UIKit.framework in Frameworks */,
 				E5340F1614853A4E0041398D /* Foundation.framework in Frameworks */,
 				E5340F1814853A4E0041398D /* CoreGraphics.framework in Frameworks */,
@@ -65,6 +71,8 @@
 		E5340F1214853A4E0041398D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E5340F3914853D960041398D /* OpenGLES.framework */,
+				E5340F3614853D830041398D /* QuartzCore.framework */,
 				E5340F1314853A4E0041398D /* UIKit.framework */,
 				E5340F1514853A4E0041398D /* Foundation.framework */,
 				E5340F1714853A4E0041398D /* CoreGraphics.framework */,
@@ -77,9 +85,9 @@
 			children = (
 				E5340F2214853A4E0041398D /* AppDelegate.h */,
 				E5340F2314853A4E0041398D /* AppDelegate.m */,
-				E5340F1A14853A4E0041398D /* Supporting Files */,
 				E5340F2E14853C690041398D /* OpenGLView.h */,
 				E5340F2F14853C690041398D /* OpenGLView.m */,
+				E5340F1A14853A4E0041398D /* Supporting Files */,
 			);
 			path = HelloOpenGL;
 			sourceTree = "<group>";

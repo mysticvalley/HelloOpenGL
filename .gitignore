@@ -1,5 +1,5 @@
 build/
-elloOpenGL.xcodeproj/*.pbxproj
+HelloOpenGL.xcodeproj/*.pbxproj
 HelloOpenGL.xcodeproj/*.pbxuser
 HelloOpenGL.xcodeproj/*.mode*
 HelloOpenGL.xcodeproj/xcuserdata*

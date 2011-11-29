@@ -15,6 +15,12 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
+        [self setupLayer];        
+        [self setupContext];                
+        [self setupRenderBuffer];        
+        [self setupFrameBuffer];                
+        [self render];        
+        
     }
     return self;
 }
@@ -62,7 +68,12 @@
     glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_RENDERBUFFER, _colorRenderBuffer);
 }
 
-
+/* Clear the screen */
+- (void)render {
+    glClearColor(0, 104.0/255.0, 55.0/255.0, 1.0);
+    glClear(GL_COLOR_BUFFER_BIT);
+    [_context presentRenderbuffer:GL_RENDERBUFFER];
+}
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
@@ -71,5 +82,11 @@
     // Drawing code
 }
 */
+
+- (void) dealloc {
+    [_context release];
+    _context = nil;
+    [super dealloc];
+}
 
 @end

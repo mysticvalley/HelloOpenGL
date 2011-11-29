@@ -17,4 +17,11 @@
     GLuint _colorRenderBuffer;
 }
 
+- (void) setupLayer;
+- (void) setupContext;           
+- (void) setupRenderBuffer;
+- (void) setupFrameBuffer;
+- (void) render;
+
+
 @end

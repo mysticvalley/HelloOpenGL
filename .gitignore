@@ -1,0 +1,9 @@
+build/
+HelloOpenGL.xcodeproj/*.pbxuser
+HelloOpenGL.xcodeproj/*.mode*
+HelloOpenGL.xcodeproj/xcuserdata*
+HelloOpenGL.xcodeproj/project.xcworkspace
+
+*~
+*#
+q.arcconfig
